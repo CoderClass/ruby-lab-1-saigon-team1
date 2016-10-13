@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  get 'photos/index'
+  resources :photos
 
-  get 'photos/show'
 
   root 'home#index'
 
